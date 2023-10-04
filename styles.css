@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url('https://img.freepik.com/free-photo/glowing-lines-human-heart-3d-shape-dark-background-generative-ai_191095-1435.jpg?t=st=1695211310~exp=1695214910~hmac=b28060ccba83b08cd6afc2466dbac812ef5244305451496ce3f7870e8e64d1fd&w=826');
+    background-repeat: none;
+    background-size: cover;
+}
+/* nav{
+    border: 2px solid white;
+} */
+.nav_wrapper{
+    /* border: 2px solid blue; */
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_wrapper h1{
+   color: #fff;
+   font-size: 2.5rem; 
+   font-weight: 200;
+   letter-spacing: -4px;
+}
+.nav_items a{
+    color: #fff;
+    text-decoration: none;
+    padding-right: 4rem;
+    text-transform: capitalize;
+}
+.nav_wrapper button{
+    padding: .3rem 2rem;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+/* styling for main */
+/* main{
+    border: 2px solid white;
+} */
+
+form{
+    border: 1px solid #fff;
+    width: 400px;
+    height: 65vh;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.532);
+    margin: 3rem auto;
+    filter: blur(.5px);
+}
+form>span{
+    background-color: black;
+    color: #fff;
+    font-weight: 600;
+    margin: .03rem;
+    float: right;
+    padding: .1rem .5rem;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+form h1{
+    text-align: center;
+    margin: 2rem 0;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.input_container {
+    border-bottom: 1px solid #000;
+    margin: 2rem auto;
+    width: 300px;
+    display: flex;
+    padding-bottom: 5px;
+}
+.input_container input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.input_container input::placeholder{
+    color: black;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding-left: 1rem;
+}
+.form_label{
+    /* border: 2px solid; */
+    width: 300px;
+    margin: auto;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    /* border: 2px solid blue; */
+    width: 300px;
+    margin: 1rem auto;
+}
+.btn>button{
+    width: 100%;
+    border-radius: 7px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    text-transform: capitalize;
+    padding: .5rem 0;
+}
+.btn>button:hover{
+    cursor: pointer;
+    background-color: #5c5858;
+}
+
+form p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: -5px;
+}
+form p a{
+    text-decoration: none;
+    font-weight: 800;
+    color: #000;
+}
